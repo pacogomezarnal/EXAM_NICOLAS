@@ -23,7 +23,7 @@ public class PanelComprobar extends JPanel {
 		ingresar = new IngresoLaby();// iniciamos el objeto loby
 		
 		setName("Comprobacion");
-		setSize(VentanaPrincipal.getInstance().getSize());
+		setSize(430, 350);
 		setLayout(null);
 		
 		colocaComponentes();

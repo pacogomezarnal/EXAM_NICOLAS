@@ -28,7 +28,7 @@ public class PanelEquipo extends JPanel {
 		modeloCadete = new ModeloCadete();
 		
 		setName("Equipo");
-		setSize(VentanaPrincipal.getInstance().getSize());
+		setSize(430, 350);
 		setLayout(null);
 		
 		colocaComponentes();

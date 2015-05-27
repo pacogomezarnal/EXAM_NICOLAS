@@ -27,7 +27,7 @@ public class PanelPrincipal extends JPanel {
 		modeloCadete = new ModeloCadete();// iniciamos el modelo cadete
 		
 		setLayout(null);
-		setSize(VentanaPrincipal.getInstance().getSize());
+		setSize(430, 350);
 		setName("Principal");
 		
 		colocaComponentes();
