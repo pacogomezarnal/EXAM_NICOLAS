@@ -29,6 +29,11 @@ public class Cadete {
 		this.equipo=equipo;
 		
 	}
+	
+	@Override
+	public String toString() {
+		return nombre;
+	}
 
 	public int getId() {
 		return id;

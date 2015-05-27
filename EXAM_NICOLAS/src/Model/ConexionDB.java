@@ -39,7 +39,7 @@ public class ConexionDB {
 	//Implementar SingleTon
 	public static ConexionDB getInstance(String HOST,String BBDD,String USER,String PASS) {
 	      if(instance == null) {
-	         instance = null;
+	         instance = new ConexionDB(HOST, BBDD, USER, PASS);
 	      }
 	      return instance;
 	   }
@@ -48,7 +48,7 @@ public class ConexionDB {
 	//valores por defecto
 	public static ConexionDB getInstance() {
 	      if(instance == null) {
-	         instance = null;
+	         instance = new ConexionDB(HOST, BBDD, USER, PASS);
 	      }
 	      return instance;
 	  }

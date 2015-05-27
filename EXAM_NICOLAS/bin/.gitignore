@@ -1,4 +1,6 @@
 /Model/
-/View/
-/imagenes/
 /lib/
+/vistas/
+/imagenes/
+/controlador/
+/Main.class
